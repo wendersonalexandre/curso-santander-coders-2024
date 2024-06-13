@@ -1,0 +1,58 @@
+
+
+.bg{
+    background-color: aqua;
+    background-image: url(https://media.istockphoto.com/id/937704322/pt/foto/businessman-with-money-in-hand-us-dollar-investment-success-and-profitable-business-concepts.jpg?s=1024x1024&w=is&k=20&c=Wf4AXyoNQpU44I2MGjB8UIPHveRff-mCdOY6sTEmzOM=);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    font-size: 2rem;
+    border-collapse: collapse;
+}
+
+
+thead tr:first-child{
+
+    background-color: grey;
+}
+
+tbody tr:nth-child(2n ){
+    background-color: rgb(162, 103, 216);
+}
+
+ul {
+    list-style: circle;
+}
+
+ol{
+    list-style: upper-roman;
+}
+
+.box{
+   height: 100px;
+   width: 200px;
+   padding: 10px;
+   border: 4px solid black;
+   display: inline-block; 
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
