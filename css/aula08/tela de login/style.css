@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1{
+    font-size: 4em;
+}
+
+main p{
+    font-size: 3em;
+    color: rgba(61, 211, 178, 0.712);
+    font-weight: 600;
+}
+
+.img img{
+    margin-top: 40px;
+  }
+   
+.page-content{
+    height: 100vh;
+    display: grid;
+}
+
+main{
+    margin-bottom: 30px;
+    grid-area: title;
+  }
+  
+aside{
+      grid-area: login;
+  }
+  
+footer{
+      grid-area: footer;
+  }
+
+@media screen and (min-width:1024px){
+   .page-content{
+      display: grid;
+      grid-template-areas:
+          "title title login" 
+          "title title login"
+          "title title login"
+          "footer footer footer"
+          ;
+ }
+}

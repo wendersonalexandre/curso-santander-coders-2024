@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        ". . . . . ."
+      ". aside aside main main ."
+      ". aside aside main main .";
+     gap: 2rem 10rem;
+}
+
+:root{
+   font-size:62.5% ; 
+}
+
+aside{
+    grid-area: aside;
+   
+}
+
+aside h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:6.4rem ;
+    font-weight: 50rem;
+    line-height: 7.5rem;
+}
+
+aside h1 span{
+    color: #FF5678;
+}
+
+main{
+    width: 50rem;
+    height: 40rem;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    padding:4.4rem  5.7rem;
+    margin-top: 50px;
+   
+}
+
+main{
+    grid-area: main;
+
+    
+}
+
+main h2{
+    max-width: 35rem;
+    font-size: 3.6rem ;
+    font-weight: 30rem;
+
+}
+
+ #go{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main h2 span{
+    color: #FF5678;
+    
+}
+
+main .action{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .action a:first-child{
+    border-radius: 0.8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #35E6E9;
+    height: 4rem;
+    width: 40rem;
+    margin-top: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .action a + a{
+    border-radius:0.8rem ;
+    color: white;;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #FF5678;
+    height: 4rem;
+    width: 40rem;
+    margin-top: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main footer p {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+   
+   
+
+}
+
+main footer a{
+    margin-top: 1rem;
+    font-size:1.8rem; 
+
+    display: flex;
+   justify-content: center;
+}
+
+main form input{
+    width: 489px;
+    height: 45px;
+
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+main form label{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+
